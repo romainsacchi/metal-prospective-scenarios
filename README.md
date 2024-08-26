@@ -39,7 +39,7 @@ and the efficiency of aluminum smelters in China were also modeled.
             key='tUePmX_S5B8ieZkkM7WUU2CnO8SmShwmAeWK9x2rTFo=',
             biosphere_name="ecoinvent-3.10-biosphere",
     )
-    ndb.update("external")
+    ndb.update("external") # or ndb.update() if you want to update the database with the IAM data plus the external scenario
 
 ```
 
@@ -53,3 +53,4 @@ https://github.com/margueritefauroux/pLCA_metals
 
 # License
 Missing
+
